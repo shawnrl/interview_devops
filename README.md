@@ -19,7 +19,7 @@ The information about the WordPress container:
   
     image: mysql:5.7
     evironment variables:
-	    MYSQL_DATABASE: my_db
+	    MYSQL_DATABASE: wordpress
 	    MYSQL_USER: interviewuser
 	    MYSQL_PASSWORD: interv!3wpassw0rd
 	    MYSQL_RANDOM_ROOT_PASSWORD: yes
