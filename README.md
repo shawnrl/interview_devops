@@ -26,13 +26,12 @@ The information about the WordPress container:
 
 Both services must be independent pods.
 
-We are going to use a Jenkins instance ([http://157.245.224.231:8080/job/interview_test_job/](http://157.245.224.231:8080/job/interview_test_job/)) for the deployment.
+We are going to use a Centos instance 64.227.88.210 to perform the deployment the deployment.
 
 ## Items to complete:
 
- 1. Create configuration files to deploy WordPress and MySQL and commit them to the root of this repo.
- 2. Configure the previous Jenkins job to deploy them into the cluster.
- 3. Login into the Jenkins machine as root and verify the cluster is up and running using a kubectl command.
+ 1. Create the Kubernetes configuration files to deploy WordPress and MySQL and commit them to the root of this repo.
+ 2. Pull this repo in 64.227.88.210 and execute the commands to deploy the application.
 
 ### Extra item:
 
@@ -42,5 +41,4 @@ We are going to use a Jenkins instance ([http://157.245.224.231:8080/job/intervi
 
  - [MySQL Image info from docker hub](https://hub.docker.com/_/mysql?tab=description)
  - [WordPress Image info from docker hub](https://hub.docker.com/_/wordpress)
- - [Kubernetes Plugin in Jenkins](https://github.com/jenkinsci/kubernetes-plugin)
 
