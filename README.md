@@ -26,7 +26,7 @@ The information about the WordPress container:
 
 Both services must be independent pods.
 
-We are going to use a Centos instance 64.227.88.210 to perform the deployment the deployment.
+We are going to use a Centos instance 64.227.88.210 to perform the deployment.
 
 ## Items to complete:
 
